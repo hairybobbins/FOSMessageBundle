@@ -1,6 +1,8 @@
 FOSMessageBundle
 ================
 
+A hacky update for Symfony 4.
+
 This bundle provides messaging features for a Symfony application. Features available include:
 
 - Support for both the Doctrine ORM and ODM for message storage

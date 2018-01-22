@@ -77,6 +77,20 @@ fos_message:
     prefix: /optional_routing_prefix
 ```
 
+### Step 6 - Setup hacky overrides
+
+Put this under twig in your services:
+
+```yaml
+paths:
+    #'%kernel.project_dir%/templates/bundles/FOSMessageBundle': FOSMessageBundle
+    '%kernel.project_dir%/vendor/friendsofsymfony/message-bundle/FOS/MessageBundle/Resources/views': FOSMessageBundle
+```
+
+Uncomment the top line to use symfony template overrides, use the bottom to leave them at the default bundle.
+
+This entry must be present or all templating will fail.
+
 ## Installation Finished
 
 At this point, the bundle has been installed and configured and should be ready for use.
