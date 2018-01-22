@@ -4,6 +4,6 @@
 
 <h2>{% trans from 'FOSMessageBundle' %}deleted{% endtrans %}</h2>
 
-{% include 'FOSMessageBundle:Message:threads_list.html.twig' with {'threads': threads} %}
+{% include '@FOSMessageBundle/Message/threads_list.html.twig' with {'threads': threads} %}
 
 {% endblock %}
