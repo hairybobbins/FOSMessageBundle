@@ -29,4 +29,4 @@ This bundle is under the MIT license. See the complete license in the bundle:
 Resources/meta/LICENSE
 ```
 
-[Read the documentation for the last stable (1.3)]: https://github.com/FriendsOfSymfony/FOSMessageBundle/blob/master/Resources/doc/00-index.md
+[Read the documentation for the last stable (1.3)]: https://github.com/hairybobbins/FOSMessageBundle/blob/symfony4/Resources/doc/00-index.md
