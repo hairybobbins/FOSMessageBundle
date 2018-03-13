@@ -26,17 +26,9 @@ Put the following in your composer.json file to add this fork as a source:
 ],
 ```
 
-Then add this to make sure that composer installs the correct branch from this fork:
+Then use the following to install the package with the correct branch:
 
-```json
-"friendsofsymfony/message-bundle": "dev-symfony4",
-```
-
-Then run:
-
-```bash
-composer install
-```
+ `composer require friendsofsymfony/message-bundle:dev-symfony4`
 
 ### Step 2 - Setting up your user class
 
