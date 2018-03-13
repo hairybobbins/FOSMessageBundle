@@ -32,10 +32,7 @@
         "doctrine/mongodb-odm-bundle": "dev-master"
     },
     "autoload": {
-        "psr-4": { "FOS\\MessageBundle": "" },
-        "exclude-from-classmap": [
-            "/Tests/"
-        ]
+        "psr-0": { "FOS\\MessageBundle": "" }
     },
     "extra": {
         "branch-alias": {
