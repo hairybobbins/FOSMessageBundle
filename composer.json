@@ -32,9 +32,11 @@
         "doctrine/mongodb-odm-bundle": "dev-master"
     },
     "autoload": {
-        "psr-0": { "FOS\\MessageBundle": "" }
+        "psr-4": { "FOS\\MessageBundle": "" },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
     },
-    "target-dir": "FOS/MessageBundle",
     "extra": {
         "branch-alias": {
             "dev-master": "1.2-dev"
