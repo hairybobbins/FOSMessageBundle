@@ -29,6 +29,10 @@ Put the following in your composer.json file to add this fork as a source:
 Then use the following to install the package with the correct branch:
 
  `composer require friendsofsymfony/message-bundle:dev-symfony4`
+ 
+You will also need to add config entries for your own entities, please see this ticket for more information (or to report issues on the non-forked repo);
+
+https://github.com/FriendsOfSymfony/FOSMessageBundle/issues/318
 
 ### Step 2 - Setting up your user class
 
