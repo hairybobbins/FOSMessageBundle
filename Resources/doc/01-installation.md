@@ -21,7 +21,7 @@ Put the following in your composer.json file to add this fork as a source:
 "repositories": [
     {
         "type": "vcs",
-        "url": "https://github.com/hairybobbins/FOSMessageBundle"
+        "url": "https://github.com/hex333ham/FOSMessageBundle"
     }
 ],
 ```
